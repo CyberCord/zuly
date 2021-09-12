@@ -1,0 +1,16 @@
+## PACKAGE FILES
+
+node_modules
+yarn.lock
+
+## CONFIG FILES
+
+src/system.js
+src/Config/config.js
+src/Config/system.js
+src/Config/player.js
+src/client/plugins/nodes.js
+
+## DATABASE FILES
+
+data
