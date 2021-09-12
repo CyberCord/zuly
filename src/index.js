@@ -2,4 +2,4 @@ const { Client } = require('discord.js');
 
 const client = new Client();
 
-client.logion('token');
+client.login('token');
