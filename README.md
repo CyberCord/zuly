@@ -2,6 +2,6 @@
 
 **PROJETO**: `Zuly`
 **TIPO**: `Discord Bot`
-**LINGUAGEM**: Javascript`
-**FRAMEWORK**: ``discord.js (v13)`
+**LINGUAGEM**: `Javascript`
+**FRAMEWORK**: `discord.js (v13)`
 
