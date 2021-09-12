@@ -4,7 +4,10 @@ const { Client, Intents, Collection, Options } = require('discord.js');
 const { token } = require('./Config/config');
 // CLIENTE
 const client = new Client({
-	intents: [Intents.FLAGS.GUILDS],
+	intents: [
+		Intents.FLAGS.GUILDS,
+		Intents.FLAGS.GUILD_MESSAGES
+	],
 	partials: [
 		'USER',
 		'CHANNEL',
@@ -42,5 +45,6 @@ require('./Utils/deploy-commands');
 require('./EventHandler.js')(client);
 require('./CommandHandler.js')(client);
 require('./Database/mongo');
+global.zuly = client;
 // INICIANDO TUDO
 client.login(token);
