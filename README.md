@@ -1,4 +1,4 @@
-## Bem-vindo ao repositório da zulybot!
+# Bem-vindo ao repositório da zulybot!
 
 **PROJETO**: `Zuly`
 **TIPO**: `Discord Bot`
